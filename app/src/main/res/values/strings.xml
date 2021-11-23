@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">Annibee</string>
+    <string name="annibee">annibee</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!-- Add new admob ids -->
+    <!-- Test keys -->
+    <string name="banner_ad_id" translatable="false">ca-app-pub-7682940973902626/6797949623</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-7682940973902626~8685746368</string>
+
+    <!--Live app davusrini@gmail.com  SuvegaApp-->
+    <!--
+        <string name="admob_app_id" translatable="false">ca-app-pub-6725053760932192~8376366662</string>
+        <string name="banner_ad_id" translatable="false">ca-app-pub-6725053760932192/8184794975</string>
+    -->
+
+    <string name="facebook_app_id" translatable="false">793471228034794</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb793471228034794</string>
+
+
+    <string name="please_wait">Please Wait</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="register_your_anniversary">Register your anniversary</string>
+    <string name="register_important_days_such_as_your_own_birthday_or_wedding_anniversary_you_can_set_the_notification_timing_for_each_registered_anniversary">Register important days such as your own birthday or wedding anniversary You can set the notification timing for each registered anniversary.</string>
+    <string name="register_for_an_event">Register for an event</string>
+    <string name="leave_photos_and_gift_information_for_this_year_s_events_birthday_parties_etc_in_association_with_anniversaries">Leave photos and gift information for this year\'s events (birthday parties, etc.) in association with anniversaries</string>
+    <string name="sharing_function_and_sns_cooperation">Sharing function and SNS cooperation</string>
+    <string name="in_the_future_you_can_share_events_with_your_friends_we_plan_to_strengthen_functions_such_as_linking_with_various_sns_looking_forward_to">In the future, you can share events with your friends. We plan to strengthen functions such as linking with various SNS. looking forward to</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="forgot_password_">Forgot Password?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="using">OR</string>
+    <string name="if_you_don_t_have_account">If you don\'t have account?</string>
+    <string name="click_here">Click Here</string>
+    <string name="search">Search</string>
+    <string name="date">Date</string>
+    <string name="add">Add</string>
+    <string name="list">List</string>
+    <string name="account">Account</string>
+    <string name="all">All</string>
+    <string name="upcoming_anniversary">Upcoming Anniversary</string>
+    <string name="past_anniversary">Past Anniversary</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="create_an_anniversary">Create an anniversary</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="user_id">User ID (Optional)</string>
+    <string name="birthday">Birthday</string>
+    <string name="attribute">Attribute</string>
+    <string name="attribute_">Attribute :</string>
+    <string name="alert_notification_multiple_selections_allowed">Alert Notification (Multiple Selections Allowed)</string>
+    <string name="create_an_event">Create an Event</string>
+    <string name="event_name">Event Name</string>
+    <string name="note">Note</string>
+    <string name="select_anniversary_attributes">Select Anniversary Attributes</string>
+    <string name="people">People</string>
+    <string name="select_an_anniversary_optional">Select your anniversary</string>
+    <string name="select_anniversary">Select Anniversary</string>
+    <string name="home">Home</string>
+    <string name="anniversary_detail">Anniversary Detail</string>
+    <string name="share">Share</string>
+    <string name="celebration_of_friends">Celebration of friends</string>
+    <string name="taro_amp_hanako_wedding_anniversary"><![CDATA[Taro & Hanako Wedding Anniversary]]></string>
+    <string name="the_two_are_high_school_classmates">The two are high school classmates</string>
+    <string name="notify_in_advance">Notify %d days in advance</string>
+    <string name="event">Event</string>
+    <string name="create_new">Create New</string>
+    <string name="all_day">All Day</string>
+    <string name="fuji_rock_festival">Fuji Rock Festival</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="event_photo">Event photo</string>
+    <string name="event_detail">Event Detail</string>
+    <string name="registered_anniversaries_and_events">Registered anniversaries and events</string>
+    <string name="registered_anniversary">Registered Anniversary</string>
+    <string name="registered_event">Registered Event</string>
+    <string name="notifications_and_privacy">Notifications and Privacy</string>
+    <string name="alert_notification_settings">Alert Notification Settings</string>
+    <string name="support">Support</string>
+    <string name="faq">FAQ</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="report_application_bugs_improvement_requests">Report application bugs / improvement requests</string>
+    <string name="other">Other</string>
+    <string name="given_names">Given Names</string>
+    <string name="last_names">Last Names</string>
+    <string name="user_names">User Name</string>
+    <string name="reenter_password">Re-enter Password</string>
+    <string name="if_you_already_have_an_account">If you already have an account</string>
+    <string name="read_and_agree_to_the_terms_of_use_and_privacy_policy">Read and agree to the </string>
+    <string name="terms_of_use">Read and agree to the <a style="text-decoration:none;" href="http://174.129.238.169/annibee/termscondition">Terms of use</a> &amp; <a style="text-decoration:none;" href="http://174.129.238.169/annibee/privacypolicy">Privacy policy</a></string>
+    <string name="show_all">Show All</string>
+    <string name="today_s_anniversary_and_events">Today\'s anniversaries &amp; events</string>
+    <string name="upcoming_anniversary_and_events">Upcoming anniversaries &amp; events</string>
+    <string name="holiday_events">Holiday lists</string>
+    <string name="past_anniversaries_and_events">Past anniversaries &amp; events</string>
+    <string name="chihiro_dating_half_a_year">Chihiro dating half a year</string>
+    <string name="parents_wedding_anniversary">Parents Wedding Anniversary</string>
+    <string name="anniversary">Anniversary</string>
+    <string name="example_mother_s_day">Example: Mother\'s birthday</string>
+    <string name="wednesday_february_3_2021">February 3, 2021</string>
+    <string name="_4_weeks_ago">4 Weeks Ago</string>
+    <string name="_3_weeks_ago">3 Weeks Ago</string>
+    <string name="_2_weeks_ago">2 Weeks Ago</string>
+    <string name="_1_weeks_ago">1 Weeks Ago</string>
+    <string name="the_day_before">The Day Before</string>
+    <string name="that_day">That Day</string>
+    <string name="april_18_2021">2021/04/18</string>
+    <string name="_10_00_am_8_00_pm">10:00 am-8:00 pm</string>
+    <string name="_2_year_mesh">2nd Year</string>
+    <string name="this_year_6_people_will_go_to_fuji_rock_festival_pay_tickets_for_2_people_with_4_people_4000_yen_person">This year, 6 people will go to Fuji Rock Festival. Pay tickets for 2 people with 4 people. 4000 yen/person</string>
+    <string name="participants">participants</string>
+    <string name="_7">7</string>
+    <string name="_2">2</string>
+    <string name="oo_s_birthday">OO\'s Birthday</string>
+    <string name="_2021_4_18">2021/4/18</string>
+    <string name="_25th">(25th)</string>
+    <string name="_8_25_2021">8/25/2021</string>
+    <string name="grandmother_s_anniversary_67th_anniversary">Grandmother\'s anniversary (67th anniversary)</string>
+    <string name="shinji_nakamura">shinji nakamura</string>
+    <string name="_2021">2021</string>
+    <string name="select_profile_img">Select profile image</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="please_enter_old_password">Please enter old password</string>
+    <string name="please_enter_new_password">Please enter new password</string>
+    <string name="please_enter_8_char_old_password">The old password must be at least 8 single-byte characters and must include large and small alphanumeric characters.</string>
+    <string name="please_enter_8_char_new_password">The new password must be at least 8 single-byte characters and must include large and small alphanumeric characters.</string>
+    <string name="please_enter_different_password">The new password is same as your old password.</string>
+    <string name="please_enter_8_char_password">The password must be at least 8 single-byte characters and must include large and small alphanumeric characters.</string>
+    <string name="please_enter_valid_email">Please enter valid email</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="please_enter_birthday">Please enter birthday</string>
+    <string name="please_enter_user_id">Please enter user-id</string>
+    <string name="please_enter_name">Please enter the name of the event</string>
+    <string name="please_enter_name_of_anniversary">Please enter the name of the anniversary</string>
+    <string name="password_not_match">Password not match</string>
+    <string name="please_enter_user_name">Please enter user name</string>
+    <string name="please_enter_last_name">Please enter last name</string>
+    <string name="please_enter_given_name">Please enter given name</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_required_n_you_can_grant_permission_in_setting">Permission is required!!\nYou can grant permission in Setting.</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="gallery">Gallery</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="user_policy">User Policy</string>
+    <string name="and">&amp;</string>
+    <string name="please_check_the_user_policy_and_privacy_policy">Please check the user privacy and terms conditions</string>
+    <string name="shin_nakamura">Shin Nakamura</string>
+    <string name="nakamura1994s">Nakamura1994s</string>
+    <string name="photo">Photo</string>
+    <string name="notice_same_day_previous_day_1_week_ago_4_weeks_ago">Notice: Same day, previous day, 1 week ago, 4 weeks ago.</string>
+    <string name="submit">Submit</string>
+    <string name="change_password_submit">Submit</string>
+    <string name="participate">Submit</string>
+    <string name="select_the_applicable_anniversary">Select the applicable anniversary</string>
+    <string name="whats_app_images">WhatsApp Images</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="please_enter_anniversary_attribute">Please enter anniversary attribute</string>
+    <string name="please_enter_note">Please enter note</string>
+    <string name="please_enter_start_date">Please enter start date</string>
+    <string name="please_enter_start_time">Please enter start time</string>
+    <string name="please_enter_end_date">Please enter end date</string>
+    <string name="please_enter_end_time">Please enter end time</string>
+    <string name="please_enter_people">Please enter people</string>
+    <string name="change_language">Change Language</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="japanese">日本語</string>
+    <string name="traditional_chinese">繫体字</string>
+    <string name="simplified_chinese">簡体字</string>
+    <string name="are_you_sure_n_you_want_to_logout">Do you want to log out?</string>
+    <string name="are_you_sure_n_you_want_to_delete_your_account">All the data will be deleted, are you sure you want to delete it?</string>
+    <string name="are_you_sure_n_you_want_to_delete_this_event">Are you sure? You want to delete this event.</string>
+    <string name="any">Any</string>
+    <string name="default_anniversary">Default anniversary</string>
+    <string name="wedding_anniversary">Wedding Anniversary</string>
+    <string name="anniversary_of_establishment">Anniversary of Establishment</string>
+    <string name="dating_anniversary">Dating anniversary</string>
+    <string name="engagement_anniversary">Engagement Anniversary</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="setting">Setting</string>
+    <string name="notification">Notification</string>
+    <string name="notification_message_here">Notification message here...</string>
+    <string name="mother_s_day">Mother\'s Day</string>
+    <string name="father_s_day">Father\'s Day</string>
+    <string name="valentine">Valentine</string>
+    <string name="white_day">White Day</string>
+    <string name="Respect_for_the_aged_day">Respect for the aged day</string>
+    <string name="christmas_eve">Christmas Eve</string>
+    <string name="christmas">Christmas</string>
+    <string name="new_year_s_day">New Year\'s Day</string>
+    <string name="are_you_sure_n_you_want_to_delete_this_anniversary">Are you sure? You want to delete this anniversary.</string>
+    <string name="please_enter_date_of_anniversary">Please enter the date of anniversary</string>
+    <string name="share_to_friends">Share to friends</string>
+    <string name="date_of_death">"Date of death "</string>
+    <string name="date_and_time">Date &amp; Time</string>
+    <string name="event_on">Event on</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+
+    <string name="please_login_again">Please login again</string>
+    <string name="notice">Notice: </string>
+    <string name="Please_select_an_image">Please select an image</string>
+    <string name="update_an_anniversary">Update an anniversary</string>
+    <string name="update_an_event">Update an event</string>
+    <string name="no_data_found">No Data Found!!!</string>
+    <string name="photos">Photos</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="enter_title">Please Enter Title</string>
+    <string name="enter_message">Please Enter Message</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="notify">Notify</string>
+    <string name="days_in_advance">days in advance</string>
+    <string name="event_name_example">Mother 50 years old celebration</string>
+    <string name="report_bugs_improvement">Report Bugs / Improvement</string>
+    <string name="que">Question :</string>
+    <string name="how_to_add_anniversary_or_event">How to add Anniversary or Event?</string>
+    <string name="ans">Answer :</string>
+    <string name="answer">Goto Home and Press the add image in bottom and then click on create anniversary if you want to create an anniversary. If you want to create an event then press on create event and fill the detail then click on save button then your Anniversary or Event will be created.</string>
+    <string name="please_select_date_which_is_after_start_date">Please Select date which is after Start Date</string>
+    <string name="google">Google</string>
+    <string name="please_select_anniversary">Please select any anniversary</string>
+    <string name="setup_profile">Setup Profile</string>
+    <string name="request_submitted_successfully">Request submitted successfully</string>
+    <string name="please_enter_valid_user_id">User ID must be 8 characters long</string>
+    <string name="days_remain">days remain</string>
+    <string name="anniversary_name">Anniversary name :</string>
+
+
+    <string name="user_id_placeholder">More than 8 numbers and letters</string>
+    <string name="password_placeholder">Password (8 alphanumeric characters)</string>
+    <string name="user_name_placeholder">User Name</string>
+    <string name="new_password_placeHolder">8 alphanumeric characters</string>
+    <string name="confirm_password_placeHolder">Confirm Password (8 alphanumeric characters)</string>
+    <string name="terms_of_user">Terms of Use</string>
+    <string name="_10_days_passed">10 days passed</string>
+    <string name="required">(*required)</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="add_people">Add People</string>
+
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+
+    <string name="new_attribute">New Attribute</string>
+    <string name="people_placeholder">Tom, Smith, Bob</string>
+    <string name="photo_only_1_image">Photo (Only 1 Image)</string>
+    <string name="photo_only_4_image">4 photos only (*Please select main photo first)</string>
+
+    <string name="choose_image_from_gallery">Choose image from gallery</string>
+    <string name="take_a_photo">Take a photo</string>
+
+    <string name="msg_password_changed">Password changed successfully</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayout"
+    android:background="?android:selectableItemBackground"
+    android:padding="@dimen/_5sdp"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.devstree.annibee.view.TextView
+        android:id="@+id/txtName"
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chihiro_dating_half_a_year"
+        android:ellipsize="end"
+        android:textSize="@dimen/_10ssp"
+        android:maxWidth="@dimen/_170sdp" />
+
+
+    <com.devstree.annibee.view.TextView
+        android:id="@+id/txtRemainDays"
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_25th"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:textSize="@dimen/_10ssp"
+        android:visibility="gone" />
+
+    <com.devstree.annibee.view.TextView
+        android:id="@+id/txtDate"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:text="@string/_8_25_2021"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.DateFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/white"
+            android:foregroundGravity="top"
+            android:gravity="top"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:mcv_calendarMode="month"
+            app:mcv_dateTextAppearance="@style/Widget.MaterialComponents.MaterialCalendar.Day.Today"
+            app:mcv_firstDayOfWeek="monday"
+            app:mcv_selectionColor="#99FD3C34"
+            app:mcv_selectionMode="single"
+            app:mcv_tileHeight="@dimen/_78sdp"
+            app:mcv_tileSize="match_parent"
+            app:mcv_tileWidth="match_parent" />
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/lnlHolidayList"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/_15sdp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:visibility="gone"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/calendarView">-->
+
+<!--            <com.devstree.annibee.view.TextView-->
+<!--                style="@style/TextViewStyle"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:drawableStart="@drawable/ic_event_note"-->
+<!--                android:drawablePadding="@dimen/_7sdp"-->
+<!--                android:drawableTint="@color/grey"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:text="@string/holiday_events"-->
+<!--                android:textColor="@color/grey" />-->
+
+
+<!--        </LinearLayout>-->
+
+
+<!--        <com.google.android.material.card.MaterialCardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:id="@+id/cardHolidayView"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/_8sdp"-->
+<!--            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--            app:cardBackgroundColor="@color/light_gray"-->
+<!--            android:layout_marginBottom="@dimen/_10sdp"-->
+<!--            app:cardCornerRadius="@dimen/_7sdp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/lnlHolidayList"-->
+<!--            app:cardElevation="0dp">-->
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rvHolidayDay"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="@dimen/_8sdp"-->
+<!--                tools:listitem="@layout/home_item_upcoming" />-->
+
+
+<!--        </com.google.android.material.card.MaterialCardView>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+    <!--
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:mcv_calendarMode="month"
+            app:mcv_dateTextAppearance="@style/DaysCustomTextAppearance"
+            app:mcv_firstDayOfWeek="monday"
+            app:mcv_selectionMode="single"
+            app:mcv_showOtherDates="all"
+            app:mcv_tileHeight="@dimen/_75sdp"
+            app:mcv_tileSize="match_parent"
+            app:mcv_tileWidth="match_parent" />
+    -->
+
+    <!--    <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            android:weightSum="10"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center|center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_5sdp"
+                    android:background="@drawable/bg_blue_border_rounded"
+                    android:backgroundTint="@color/colorPrimary" />
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/txtAnni"
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:text="@string/anniversary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center|center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_5sdp"
+                    android:background="@drawable/bg_blue_border_rounded"
+                    android:backgroundTint="@color/sky_blue" />
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/txtEvent"
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:text="@string/event" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/light_gray" />-->
+
+</androidx.core.widget.NestedScrollView>

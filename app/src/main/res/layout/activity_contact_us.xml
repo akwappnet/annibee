@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.ContactUsActivity">
+
+    <include
+        android:id="@+id/contactToolbar"
+        layout="@layout/layout_toolbar" />
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtTitle"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/rounded_grey_border"
+        android:drawableStart="@drawable/ic_edit"
+        android:drawablePadding="@dimen/_4sdp"
+        android:drawableTint="@color/colorHintGray"
+        android:hint="@string/title"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="noExcludeDescendants"
+        android:inputType="textPersonName"
+        android:padding="@dimen/_8sdp"
+        android:textColorHint="@color/colorHintGray" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:importantForAutofill="noExcludeDescendants"
+        android:id="@+id/edtMessage"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/rounded_grey_border"
+        android:drawableTint="@color/colorHintGray"
+        android:gravity="start"
+        android:hint="@string/message"
+        android:imeOptions="actionNext"
+        android:inputType="textMultiLine"
+        android:maxLines="15"
+        android:minLines="5"
+        android:padding="@dimen/_8sdp"
+        android:textColorHint="@color/colorHintGray" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:onClick="onClick"
+        android:text="@string/participate" />
+
+</LinearLayout>
+</LinearLayout>

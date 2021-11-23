@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableStart="@drawable/ic_event_note"
+                    android:drawablePadding="@dimen/_7sdp"
+                    android:gravity="center_vertical"
+                    android:text="@string/upcoming_anniversary_and_events"
+                    android:textColor="@color/colorPrimary" />
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/txtShowAll"
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:drawableEnd="@drawable/ic_show_all"
+                    android:drawablePadding="@dimen/_7sdp"
+                    android:gravity="center_vertical"
+                    android:text="@string/show_all"
+                    android:visibility="gone"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                ads:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:cardBackgroundColor="@color/light_pink"
+                app:cardCornerRadius="@dimen/_7sdp"
+                app:cardElevation="0dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvUpcoming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    tools:listitem="@layout/home_item_upcoming" />
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/layoutNoDataUpcoming"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/_30sdp"
+                    android:text="@string/no_data_found"
+                    android:visibility="gone" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+<!--            <com.google.android.gms.ads.AdView
+                android:id="@+id/largeAdView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                ads:adSize="MEDIUM_RECTANGLE"
+                ads:adUnitId="ca-app-pub-7682940973902626/6797949623" />-->
+
+            <com.devstree.annibee.view.TextView
+                style="@style/TextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:drawableStart="@drawable/ic_today_event"
+                android:drawablePadding="@dimen/_7sdp"
+                android:gravity="center_vertical"
+                android:text="@string/today_s_anniversary_and_events"
+                android:textColor="@color/sky_blue" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:cardBackgroundColor="@color/sky_blue_alpha"
+                app:cardCornerRadius="@dimen/_7sdp"
+                app:cardElevation="0dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    ads:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/home_item_today" />
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/layoutNoDataToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="@dimen/_30sdp"
+                    android:text="@string/no_data_found"
+                    android:visibility="gone" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+<!--            <com.google.android.gms.ads.AdView
+                android:id="@+id/largeAdView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                ads:adSize="MEDIUM_RECTANGLE"
+                ads:adUnitId="ca-app-pub-7682940973902626/6797949623" />-->
+
+            <com.devstree.annibee.view.TextView
+                style="@style/TextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:drawableStart="@drawable/ic_recent"
+                android:drawablePadding="@dimen/_7sdp"
+                android:gravity="center_vertical"
+                android:text="@string/past_anniversaries_and_events" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvPast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/home_item_past" />
+
+            <com.devstree.annibee.view.TextView
+                android:id="@+id/layoutNoDataPast"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="@dimen/_30sdp"
+                android:text="@string/no_data_found"
+                android:visibility="gone" />
+
+            <!--<com.google.android.gms.ads.AdView
+                android:id="@+id/largeAdView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                ads:adSize="MEDIUM_RECTANGLE"
+                android:visibility="gone"
+                ads:adUnitId="ca-app-pub-7682940973902626/6797949623" />-->
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+<!--    <RelativeLayout
+        android:id="@+id/rlAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:background="@color/sky_blue">-->
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_id" />
+<!--            ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />-->
+        <!--        app:adUnitId="ca-app-pub-3982718536020449/9513124796" />-->
+       <!-- <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/close" />
+
+    </RelativeLayout>-->
+
+</RelativeLayout>

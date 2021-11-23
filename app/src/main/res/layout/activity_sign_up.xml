@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar_transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <!--<com.devstree.annibee.view.CircularImageView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/login_logo" />-->
+
+            <com.devstree.annibee.view.TextView
+                style="@style/TextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/sign_up"
+                android:textSize="@dimen/_13ssp"
+                android:visibility="gone" />
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash;<com.devstree.annibee.view.TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/given_names" />&ndash;&gt;
+
+                    &lt;!&ndash;<com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputGivenName"
+                        style="@style/TextInputEditTextStyleOutlineBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        app:hintEnabled="false"
+                        android:textColorHint="@color/black_gray">&ndash;&gt;
+
+                                        <androidx.appcompat.widget.AppCompatEditTextandroid:importantForAutofill="noExcludeDescendants"
+                            android:id="@+id/edtGivenName"
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPersonName"
+                            android:layout_marginEnd="@dimen/_8sdp"
+                            android:drawableStart="@drawable/user"
+                            android:hint="@string/given_names"
+                            android:textColorHint="@color/colorHintGray" />
+
+&lt;!&ndash;                    </com.google.android.material.textfield.TextInputLayout>&ndash;&gt;
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:orientation="vertical">
+
+&lt;!&ndash;                    <com.devstree.annibee.view.TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/last_names"/>&ndash;&gt;
+
+                    &lt;!&ndash;<com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLastName"
+                        style="@style/TextInputEditTextStyleOutlineBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:hintEnabled="false"
+                        android:textColorHint="@color/black_gray">&ndash;&gt;
+
+                                        <androidx.appcompat.widget.AppCompatEditTextandroid:importantForAutofill="noExcludeDescendants"
+                            android:id="@+id/edtLastName"
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionNext"
+                            android:hint="@string/last_names"
+                            android:drawableStart="@drawable/user"
+                            android:inputType="textPersonName"
+                            android:textColorHint="@color/colorHintGray" />
+
+&lt;!&ndash;                    </com.google.android.material.textfield.TextInputLayout>&ndash;&gt;
+
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+            <com.devstree.annibee.view.TextView
+                style="@style/TextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/user_id" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputUserId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:textColorHint="@color/colorHintGray"
+                app:hintEnabled="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtUserId"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:drawableStart="@drawable/user"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:hint="@string/user_id_placeholder"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/colorHintGray"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/user_names" />
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/required"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:textColorHint="@color/colorHintGray"
+                app:hintEnabled="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtUserName"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:drawableStart="@drawable/user"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:hint="@string/user_name_placeholder"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/colorHintGray"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/email_address" />
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/required"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:textColorHint="@color/colorHintGray"
+                app:hintEnabled="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtEmail"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:drawableStart="@drawable/email_address"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:hint="@string/email_address"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/colorHintGray"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/password" />
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/required"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:textColorHint="@color/colorHintGray"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPassword"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:drawableStart="@drawable/password"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:hint="@string/password_placeholder"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/colorHintGray"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/confirm_password" />
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/required"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputReenterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:textColorHint="@color/colorHintGray"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtReenterPassword"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:drawableStart="@drawable/password"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:hint="@string/confirm_password_placeHolder"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/colorHintGray"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:drawableTint="@color/colorPrimary" />
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/txtTerms"
+                    style="@style/TextViewStyleItalic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:paddingBottom="@dimen/_8sdp"
+                    android:text="@string/terms_of_use"
+                    android:textColorLink="@color/colorPrimary" />
+
+                <!--
+                                                <com.devstree.annibee.view.TextView
+                                                    style="@style/TextViewStyle"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginStart="@dimen/_4sdp"
+                                                    android:text="@string/and" />
+                                -->
+
+            </LinearLayout>
+
+            <!--          <com.devstree.annibee.view.TextView
+                          android:id="@+id/txtPrivacy"
+                          style="@style/TextViewStyleItalic"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="@dimen/_24sdp"
+                          android:onClick="onClick"
+                          android:text="@string/privacy_policy"
+                          android:textColor="@color/colorPrimary" />-->
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSignUp"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:onClick="onClick"
+                android:text="@string/sign_up" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/gray" />
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_8sdp"
+                    android:text="@string/using" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:baselineAligned="false"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/llFbLogin"
+                    style="@style/ButtonWhiteStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_transparent_rounded"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:padding="@dimen/_5sdp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:src="@drawable/com_facebook_favicon_blue"
+                        app:tint="@color/black" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnFB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:background="?android:selectableItemBackground"
+                        android:gravity="center"
+                        android:onClick="onClick"
+                        android:text="Facebook"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llGoogleLogin"
+                    style="@style/ButtonWhiteStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_transparent_rounded"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:padding="@dimen/_5sdp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:src="@drawable/googleg_standard_color_18" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnGoogle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:background="?android:selectableItemBackgroundBorderless"
+                        android:gravity="center"
+                        android:onClick="onClick"
+                        android:text="@string/google"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:gravity="center_horizontal">
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/if_you_already_have_an_account" />
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/txtLogin"
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:onClick="onClick"
+                    android:text="@string/click_here"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

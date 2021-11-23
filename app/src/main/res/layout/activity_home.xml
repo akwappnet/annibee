@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.HomeActivity">
+
+    <include
+        android:id="@+id/homeToolbar"
+        layout="@layout/layout_toolbar"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_nav_menu"
+            app:itemRippleColor="@color/light_pink"
+            android:background="@color/white"
+            app:itemIconTint="@color/bottom_navigation_item_selector"
+            app:labelVisibilityMode="unlabeled" />-->
+
+    <RadioGroup
+        android:id="@+id/rgBottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:background="@drawable/bottom_menu_home"
+            android:button="@null"
+            android:onClick="onClick"
+            android:padding="@dimen/_4sdp" />
+
+        <RadioButton
+            android:id="@+id/date"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:background="@drawable/bottom_menu_date"
+            android:button="@null"
+            android:onClick="onClick" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/add"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:onClick="onClick"
+            android:src="@drawable/ic_add" />
+
+        <RadioButton
+            android:id="@+id/list"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:visibility="invisible"
+            android:background="@drawable/bottom_menu_list"
+            android:button="@null"
+            android:onClick="onClick" />
+
+        <RadioButton
+            android:id="@+id/account"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginVertical="@dimen/_4sdp"
+            android:background="@drawable/bottom_menu_account"
+            android:button="@null"
+            android:onClick="onClick" />
+
+    </RadioGroup>
+
+    <!--
+        <com.irfaan008.irbottomnavigation.SpaceNavigationView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:active_item_color="@color/sky_blue"
+            app:centre_button_color="@color/transparent"
+            app:inactive_item_color="@color/black_gray"
+            app:space_background_color="@color/white"
+            app:centre_button_icon="@drawable/ic_add"
+            app:space_item_icon_size="@dimen/space_item_icon_default_size"
+            app:space_item_icon_only_size="@dimen/space_item_icon_only_size"
+            app:space_item_text_size="@dimen/space_item_text_default_size" />
+    -->
+
+</LinearLayout>

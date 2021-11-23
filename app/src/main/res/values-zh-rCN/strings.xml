@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Annibee</string>
+    <string name="annibee">annibee</string>
+    <string name="please_wait">请稍等</string>
+    <string name="ok">OK</string>
+    <string name="cancel">取消</string>
+
+    <string name="register_your_anniversary">登记您的纪念日</string>
+    <string name="register_important_days_such_as_your_own_birthday_or_wedding_anniversary_you_can_set_the_notification_timing_for_each_registered_anniversary">添加重要的日子，例如您或您家人的生日，结婚纪念日等。您可以设置每个纪念日的通知时间。</string>
+    <string name="register_for_an_event">登记您的活动</string>
+    <string name="leave_photos_and_gift_information_for_this_year_s_events_birthday_parties_etc_in_association_with_anniversaries">您可以将与纪念日相关的照片和礼物信息留在今年的活动（生日聚会等）中。</string>
+    <string name="sharing_function_and_sns_cooperation">分享功能和SNS链接</string>
+    <string name="in_the_future_you_can_share_events_with_your_friends_we_plan_to_strengthen_functions_such_as_linking_with_various_sns_looking_forward_to">将来，我们计划加强功能，例如与朋友共享事件以及与各种SNS链接。请稍后期待。</string>
+
+    <string name="sign_up">注册</string>
+    <string name="login">登录</string>
+    <string name="email_address">电子邮箱</string>
+    <string name="password">密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="forgot_password_">你忘记密码了吗？</string>
+    <string name="forgot_password">你忘记密码了吗</string>
+    <string name="using">OR</string>
+    <string name="if_you_don_t_have_account">如果我没有帐户怎么办？</string>
+    <string name="click_here">这里</string>
+
+    <string name="given_names">姓</string>
+    <string name="last_names">姓</string>
+    <string name="user_names">用户名</string>
+    <string name="reenter_password">重新输入密码</string>
+    <string name="if_you_already_have_an_account">如果您已经有一个帐户</string>
+    <string name="read_and_agree_to_the_terms_of_use_and_privacy_policy">閱讀並同意<a href = "http://174.129.238.169/annibee/japanese-termscondition">使用條款</a>和<a href= "http://174.129.238.169/annibee/japanese-privacypolicy">隱私政策</a></string>
+    <string name="terms_of_use">閱讀並同意<a style="text-decoration: none;" href = "http://174.129.238.169/annibee/japanese-privacypolicy">使用條款</a>和<a style="text-decoration: none;" href= "http://174.129.238.169/annibee/japanese-termscondition">隱私政策</a></string>
+    <string name="privacy_policy">隱私政策</string>
+    <string name="user_policy">用戶政策</string>
+    <string name="and">&amp;</string>
+
+    <string name="search">寻找</string>
+    <string name="date">日期</string>
+    <string name="add">添加</string>
+    <string name="list">列表</string>
+    <string name="account">帐户</string>
+
+    <string name="all">全部</string>
+    <string name="upcoming_anniversary">即将到来的周年纪念日</string>
+    <string name="past_anniversary">过去的周年纪念</string>
+    <string name="show_all">显示所有</string>
+    <string name="today_s_anniversary_and_events">今日的纪念日和活动</string>
+    <string name="past_anniversaries_and_events">过去的周年纪念和活动</string>
+
+    <string name="create_an_anniversary">周年纪念日</string>
+    <string name="example_mother_s_day">示例：母亲的生日</string>
+    <string name="wednesday_february_3_2021">2021年2月3日</string>
+    <string name="alert_notification_multiple_selections_allowed">警报通知（允许多项选择）</string>
+    <string name="_4_weeks_ago">4周前</string>
+    <string name="_3_weeks_ago">3个星期前</string>
+    <string name="_2_weeks_ago">2个星期前</string>
+    <string name="_1_weeks_ago">1周前</string>
+    <string name="the_day_before">前一天</string>
+    <string name="that_day">当日</string>
+    <string name="attribute">属性</string>
+    <string name="select_anniversary_attributes">选择周年属性</string>
+    <string name="note">笔记</string>
+    <string name="photo">照片</string>
+    <string name="please_enter_name_of_anniversary">请输入周年纪念名称</string>
+
+    <string name="create_an_event">建立活动</string>
+    <string name="select_an_anniversary_optional">选择周年纪念日（可选）</string>
+    <string name="select_anniversary">选择周年纪念日</string>
+    <string name="event_name">活动名称</string>
+    <string name="all_day">一整天</string>
+    <string name="date_and_time">约会时间</string>
+    <string name="people">男子</string>
+
+    <string name="gallery">画廊</string>
+    <string name="event_on">事件</string>
+
+    <string name="home">家</string>
+    <string name="anniversary_detail">周年纪念日详情</string>
+    <string name="share">分享</string>
+    <string name="taro_amp_hanako_wedding_anniversary">芋头与花子结婚纪念日</string>
+    <string name="celebration_of_friends">庆祝朋友</string>
+    <string name="notice_same_day_previous_day_1_week_ago_4_weeks_ago">注意：同一天，前一天，1週前，4週前。</string>
+    <string name="the_two_are_high_school_classmates">兩人是高中同學</string>
+    <string name="notify_in_advance">％d 提前通知</string>
+    <string name="create_new">创建新的</string>
+
+    <string name="event_detail">活动详情</string>
+    <string name="fuji_rock_festival">富士搖滾音樂節</string>
+    <string name="_10_00_am_8_00_pm">上午10:00-下午8:00</string>
+    <string name="_2_year_mesh">第二年</string>
+    <string name="this_year_6_people_will_go_to_fuji_rock_festival_pay_tickets_for_2_people_with_4_people_4000_yen_person">今年，將有6人參加富士搖滾音樂節。 支付2人和4人的門票。 4000日圓/人</string>
+    <string name="participants">人参加者</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="event_photo">活动照片</string>
+
+    <string name="profile">轮廓</string>
+    <string name="shin_nakamura">中村真</string>
+    <string name="nakamura1994s">中村1994年代</string>
+    <string name="april_18_2021">2021年4月18日</string>
+    <string name="event">事件</string>
+    <string name="anniversary">周年纪念日</string>
+    <string name="edit_profile">个人资料编辑</string>
+    <string name="registered_anniversaries_and_events">註冊週年紀念日和活動</string>
+    <string name="registered_anniversary">注册周年</string>
+    <string name="registered_event">注册事件</string>
+    <string name="notifications_and_privacy">通知和隐私</string>
+    <string name="alert_notification_settings">警报通知设置</string>
+    <string name="support">支持</string>
+    <string name="faq">经常问的问题</string>
+    <string name="contact_us">联系我们</string>
+    <string name="report_application_bugs_improvement_requests">报告应用程序错误/改进请求</string>
+    <string name="other">其他</string>
+
+    <string name="change_photo">更改照片</string>
+    <string name="name">姓</string>
+    <string name="save">保存</string>
+    <string name="user_id">用户ID（*可选）</string>
+    <string name="birthday">生日</string>
+
+    <string name="_7">7</string>
+    <string name="_2">2</string>
+    <string name="oo_s_birthday">〇〇的生日</string>
+    <string name="_2021_4_18">2021/4/18</string>
+    <string name="_25th">(第25次)</string>
+    <string name="_8_25_2021">8/25/2021</string>
+    <string name="grandmother_s_anniversary_67th_anniversary">祖母一周年（6：7週年）</string>
+    <string name="shinji_nakamura">中村俊輔</string>
+    <string name="_2021">2021</string>
+    <string name="chihiro_dating_half_a_year">千尋，約會半年</string>
+    <string name="parents_wedding_anniversary">父母結婚紀念日</string>
+
+    <string name="please_check_the_user_policy_and_privacy_policy">检查用户隐私和条款。</string>
+    <string name="select_profile_img">选择个人资料图片</string>
+    <string name="please_enter_password">请输入您的密码</string>
+    <string name="please_enter_old_password">请输入旧密码</string>
+    <string name="please_enter_new_password">请输入新密码</string>
+    <string name="please_enter_8_char_old_password">旧密码必须至少为 8 个单字节字符，并且必须包括大小写字母数字字符。</string>
+    <string name="please_enter_8_char_new_password">新密码必须至少为 8 个单字节字符，并且必须包含大小写字母数字字符。</string>
+    <string name="please_enter_different_password">新密码与您的旧密码相同。</string>
+    <string name="please_enter_8_char_password">密码必须至少包含8个单字节字符，并且必须包含大小写字母数字字符。</string>
+    <string name="please_enter_valid_email">请输入有效的电子邮件地址</string>
+    <string name="please_enter_email">请输入您的电子邮件地址</string>
+    <string name="please_enter_birthday">请输入您的出生日期</string>
+    <string name="please_enter_user_id">请输入您的用户名</string>
+    <string name="please_enter_name">请输入活动名称</string>
+    <string name="password_not_match">密码不匹配</string>
+    <string name="please_enter_user_name">请输入您的用户名</string>
+    <string name="please_enter_last_name">请输入您的名字和姓氏</string>
+    <string name="please_enter_given_name">请输入你的名字</string>
+    <string name="permission_required">需要权限</string>
+    <string name="permission_required_n_you_can_grant_permission_in_setting">需要权限!! \ n您可以在设置中授予权限。</string>
+    <string name="no_internet_connection">不能连上互联网</string>
+
+    <string name="submit">参加</string>
+    <string name="change_password_submit">参加</string>
+    <string name="participate">报名</string>
+    <string name="select_the_applicable_anniversary">请选择适用的周年纪念日</string>
+    <string name="whats_app_images">WhatsApp圖片</string>
+    <string name="screenshot">截屏</string>
+    <string name="please_enter_anniversary_attribute">请输入周年纪念属性</string>
+    <string name="please_enter_note">请输入注释</string>
+    <string name="please_enter_start_date">请输入开始日期</string>
+    <string name="please_enter_start_time">请输入开始时间</string>
+    <string name="please_enter_end_date">请输入结束日期</string>
+    <string name="please_enter_end_time">请输入结束时间</string>
+    <string name="please_enter_people">请输入一个人</string>
+
+    <string name="change_language">语言变更</string>
+    <string name="change_password">更改密碼</string>
+    <string name="logout">登出</string>
+    <string name="language">语</string>
+    <string name="english">English</string>
+    <string name="japanese">日本語</string>
+    <string name="traditional_chinese">繫体字</string>
+    <string name="simplified_chinese">簡体字</string>
+    <string name="are_you_sure_n_you_want_to_logout">您要登出吗？</string>
+    <string name="are_you_sure_n_you_want_to_delete_this_event">可以吗 删除此事件。</string>
+
+    <string name="any">任何</string>
+    <string name="default_anniversary">默認週年紀念日</string>
+    <string name="wedding_anniversary">結婚紀念日</string>
+    <string name="dating_anniversary">約會周年紀念日</string>
+    <string name="anniversary_of_establishment">成立週年紀念日</string>
+    <string name="engagement_anniversary">訂婚週年</string>
+    <string name="date_of_death">死亡日期</string>
+
+    <string name="mother_s_day"> 母親節</string>
+    <string name="father_s_day">父親節</string>
+    <string name="valentine">情人</string>
+    <string name="white_day">白色情人節</string>
+    <string name="Respect_for_the_aged_day">尊重老年人</string>
+    <string name="christmas_eve">平安夜</string>
+    <string name="christmas">聖誕節</string>
+    <string name="new_year_s_day">元旦</string>
+
+    <string name="january">一月</string>
+    <string name="february">二月</string>
+    <string name="march"> 行进</string>
+    <string name="april">四月</string>
+    <string name="may">可能</string>
+    <string name="june">六月</string>
+    <string name="july">七月</string>
+    <string name="august">八月</string>
+    <string name="september">九月</string>
+    <string name="october">十月</string>
+    <string name="november">十一月</string>
+    <string name="december">十二月</string>
+
+    <string name="setting">环境</string>
+    <string name="notification">通知</string>
+    <string name="notification_message_here">通知消息在这里...</string>
+
+    <string name="are_you_sure_n_you_want_to_delete_this_anniversary">你确定吗？删除周年纪念日。</string>
+    <string name="please_enter_date_of_anniversary">请输入您的结婚纪念日</string>
+    <string name="share_to_friends">和朋友分享</string>
+    <string name="upcoming_anniversary_and_events">即将举行的周年纪念和活动</string>
+    <string name="done">完毕</string>
+    <string name="close">关闭</string>
+    <string name="holiday_events">Holiday lists</string>
+
+    <string name="please_login_again">请再次登录</string>
+    <string name="notice">通知：</string>
+    <string name="Please_select_an_image">请选择一张图片</string>
+    <string name="update_an_anniversary">更新周年</string>
+    <string name="update_an_event">更新事件</string>
+    <string name="no_data_found">找不到数据！ !! !!</string>
+
+    <string name="photos">照片</string>
+    <string name="title">标题</string>
+    <string name="message">信息</string>
+    <string name="enter_title">请输入标题</string>
+    <string name="enter_message">请输入留言</string>
+
+    <string name="verification_code">验证码</string>
+    <string name="new_password">新密碼</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="reset_password">重设密码</string>
+
+    <string name="notify">通知 </string>
+    <string name="days_in_advance"> 通知一天前</string>
+
+    <string name="event_name_example">母亲的50岁庆典</string>
+
+    <string name="report_bugs_improvement">錯誤/改进报告</string>
+    <string name="que">問題：</string>
+    <string name="how_to_add_anniversary_or_event">添加週年紀念日和活動？</string>
+    <string name="ans">回答 :</string>
+    <string name="answer">ホーム」を開き、下部の「画像を追加」を押し、記念日を作成したい場合は「記念日を作成」をクリックします。イベントを作成したい場合は、イベントの作成をクリックし、詳細を入力して保存ボタンをクリックすると、記念日やイベントが作成されます。</string>
+
+    <string name="please_select_date_which_is_after_start_date">请选择开始日期之后的日期。</string>
+    <string name="google">Google</string>
+    <string name="please_select_anniversary">请选择任何周年纪念日</string>
+    <string name="setup_profile">个人资料设置</string>
+    <string name="request_submitted_successfully">请求已成功发送</string>
+    <string name="please_enter_valid_user_id">用户ID请输入最多8个字符。</string>Your birthday is registered as an anniversary date.	登録されていない
+    <string name="days_remain">还剩几天</string>
+
+    <string name="attribute_">属性：</string>
+    <string name="anniversary_name">结婚纪念日 ：</string>
+
+    <string name="user_id_placeholder">8个或更多单字节字母数字字符（仅小写字母）</string>
+    <string name="password_placeholder">包括具有8个或更多单字节字符的大小写字母数字字符</string>
+    <string name="user_name_placeholder">日本太郎</string>
+    <string name="new_password_placeHolder">8 个字母数字字符</string>
+    <string name="confirm_password_placeHolder">包括具有8个或更多单字节字符的大小写字母数字字符</string>
+
+    <string name="terms_of_user">使用条款</string>
+
+    <string name="_10_days_passed">10天过去了</string>
+
+
+    <string name="required">（*任何）</string>
+    <string name="delete_account">アカウントを削除する</string>
+    <string name="are_you_sure_n_you_want_to_delete_your_account">所有的数据都将被删除，你确定要删除它吗？</string>
+    <string name="add_people">增加人数</string>
+    <string name="pm">下午</string>
+    <string name="am">是</string>
+    <string name="new_attribute">新属性</string>
+    <string name="people_placeholder">汤姆，史密斯，鲍勃</string>
+    <string name="photo_only_1_image">照片（只能登记1张照片)</string>
+    <string name="photo_only_4_image">仅4张照片（*请先选择主照片）</string>
+    <string name="choose_image_from_gallery">从图片库中选择图片</string>
+    <string name="take_a_photo">拍张照片</string>
+
+    <string name="msg_password_changed">密碼更換成功</string>
+</resources>

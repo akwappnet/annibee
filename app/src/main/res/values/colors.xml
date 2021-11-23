@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#fd3c34</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">@color/grey</color>
+
+    <color name="background">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#7A7A7A</color>
+    <color name="red">#FF0000</color>
+    <color name="light_green">#4D467C24</color>
+    <color name="light_grey">#BDBDBD</color>
+    <color name="colorHintGray">#A1A1A1</color>
+    <color name="lightest_grey">#F0F0F0</color>
+
+    <color name="brown">#964B00</color>
+    <color name="light_brown">#ce956a</color>
+    <color name="lightest_brown">#ead6c4</color>
+    <color name="white_smoke">#f2ede9</color>
+    <color name="black_gray">#3f3f3f</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#dddddd</color>
+    <color name="sky_blue">#0bb7b9</color>
+    <color name="dark_green">#00cb89</color>
+    <color name="pink">#ff0097</color>
+    <color name="sky_blue_alpha">#e7f8f8</color>
+    <color name="light_pink">#ffebeb</color>
+    <color name="light_second_gray">#e0e0e0</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="disabled">#1F000000</color>
+
+    <color name="black_alpha_5">#0D000000</color>
+    <color name="black_alpha_10">#1A000000</color>
+    <color name="black_alpha_20">#33000000</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="black_alpha_65">#A6000000</color>
+    <color name="white_alpha_90">#E6FFFFFF</color>
+    <color name="white_alpha_70">#B3FFFFFF</color>
+    <color name="white_alpha_80">#CCFFFFFF</color>
+    <color name="white_alpha_60">#99FFFFFF</color>
+    <color name="white_alpha_45">#73FFFFFF</color>
+    <color name="white_alpha_40">#66FFFFFF</color>
+    <color name="white_alpha_30">#4DFFFFFF</color>
+    <color name="white_alpha_20">#33FFFFFF</color>
+    <color name="white_alpha_10">#1AFFFFFF</color>
+    <color name="light_red">#4DFD3C34</color>
+
+    <color name="textColorPrimary">@color/white</color>
+    <color name="textColorSecondary">@color/white_alpha_45</color>
+
+
+    <color name="green">#467C24</color>
+</resources>

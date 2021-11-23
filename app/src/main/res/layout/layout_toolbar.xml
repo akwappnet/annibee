@@ -1,0 +1,253 @@
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    app:elevation="@dimen/_5sdp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:id="@+id/relStart"
+                android:layout_width="?android:attr/actionBarSize"
+                android:layout_height="?android:attr/actionBarSize">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/imgBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_back"
+                    android:visibility="visible" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgLogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/login_logo_1"
+                    android:padding="@dimen/_4sdp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/txtToolbarTitle"
+                    style="@style/TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                   <com.devstree.annibee.view.TextView
+                       android:id="@+id/spinner"
+                       style="@style/TextViewStyle"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="@dimen/_5sdp"
+                       android:drawableEnd="@drawable/ic_arrow_drop_down"
+                       android:drawablePadding="@dimen/_5sdp"
+                       android:gravity="center_vertical"
+                       android:text=""
+                       android:textColor="@color/white"
+                       android:textSize="@dimen/_13ssp"
+                       android:visibility="gone" />
+
+                   <com.devstree.annibee.view.TextView
+                       android:id="@+id/spinnerYear"
+                       style="@style/TextViewStyle"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="@dimen/_5sdp"
+                       android:drawableEnd="@drawable/ic_arrow_drop_down"
+                       android:drawablePadding="@dimen/_5sdp"
+                       android:gravity="center_vertical"
+                       android:text=""
+                       android:textColor="@color/white"
+                       android:textSize="@dimen/_13ssp"
+                       android:visibility="gone" />
+
+               </LinearLayout>
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/txtSubTitle"
+                    style="@style/TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_minus2sdp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/app_name"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edtSearch"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_red_bg_rounded"
+                    android:backgroundTint="@color/white"
+                    android:ellipsize="end"
+                    android:hint="@string/search"
+                    android:imeOptions="actionDone"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_8sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/relEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="?android:attr/actionBarSize"
+                android:gravity="center"
+                android:minWidth="?android:attr/actionBarSize"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/imgFilter"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_filter"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/rlBell"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="gone">
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/imgBell"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:background="?android:selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_bell"
+                        android:visibility="visible"
+                        app:tint="@color/white" />
+
+                    <com.devstree.annibee.view.TextView
+                        android:id="@+id/txtNotificationCount"
+                        style="@style/BadgeTextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/_9ssp"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        android:background="@drawable/round_white_bg"
+                        android:text="0"
+                        android:gravity="center"
+                        android:padding="@dimen/_2sdp"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:textColor="@color/colorPrimary" />
+
+                </RelativeLayout>
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/imgSearch"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_search"
+                    android:visibility="gone"
+                    app:tint="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/imgMenu"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_menu"
+                    android:visibility="gone"
+                    app:tint="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/imgSave"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_right_tick"
+                    android:visibility="gone" />
+
+                <com.devstree.annibee.view.TextView
+                    android:id="@+id/btnSave"
+                    style="@style/ButtonWhiteStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:background="@drawable/button_bg_circle"
+                    android:drawableStart="@drawable/ic_save"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:text="@string/save"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/imgCamera"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_camera"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/imgUpload"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_upload"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:TagsEditText="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.CreateEventActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/eventToolbar"
+            layout="@layout/layout_toolbar" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/lnlMain"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            TagsEditText:layout_constraintTop_toBottomOf="@+id/eventToolbar"
+            TagsEditText:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:clipToPadding="false"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:padding="@dimen/_20sdp"
+              >
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_an_anniversary_optional"
+                    android:textSize="@dimen/_13ssp"
+                    android:visibility="visible" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edtAnniName"
+                    style="@style/EditTextClickableStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_event_name"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_anniversary"
+                    android:importantForAutofill="noExcludeDescendants"
+                    android:textColorHint="@color/colorHintGray"
+                    android:visibility="visible" />
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/event_name"
+                    android:textSize="@dimen/_13ssp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edtName"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_anni_name"
+                    android:gravity="center_vertical"
+                    android:hint="@string/event_name_example"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="noExcludeDescendants"
+                    android:inputType="text"
+                    android:textColorHint="@color/colorHintGray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.devstree.annibee.view.TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/date_and_time"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/checkAllDay"
+                        style="@style/CheckBoxStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layoutDirection="rtl"
+                        android:text="@string/all_day" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edtStartDate"
+                        style="@style/EditTextClickableStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableStart="@drawable/ic_date_start"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:hint="@string/wednesday_february_3_2021"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:onClick="onClick"
+                        android:textColorHint="@color/colorHintGray" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edtStartTime"
+                        style="@style/EditTextClickableStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:hint="00:00"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:onClick="onClick"
+                        android:textColor="@color/black_gray"
+                        android:textColorHint="@color/colorHintGray"
+                        android:textSize="@dimen/_13ssp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edtEndDate"
+                        style="@style/EditTextClickableStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableStart="@drawable/ic_date_end"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:hint="@string/wednesday_february_3_2021"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:onClick="onClick"
+                        android:textColorHint="@color/colorHintGray" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edtEndTime"
+                        style="@style/EditTextClickableStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:hint="00:00"
+                        android:importantForAutofill="noExcludeDescendants"
+                        android:textColor="@color/black_gray"
+                        android:textColorHint="@color/colorHintGray"
+                        android:textSize="@dimen/_13ssp" />
+
+                </LinearLayout>
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/people"
+                    android:textSize="@dimen/_13ssp" />
+
+                <!--  <androidx.recyclerview.widget.RecyclerView
+                      android:id="@+id/recyclerViewPeople"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/_4sdp"
+                      android:clipToPadding="false"
+                      android:orientation="horizontal"
+                      app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                      tools:listitem="@layout/item_tag" />
+
+                  <androidx.appcompat.widget.AppCompatButton
+                      android:id="@+id/btnPeople"
+                      style="@style/ButtonStyle"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="@dimen/_5sdp"
+                      android:drawableStart="@drawable/ic_people"
+                      android:drawablePadding="@dimen/_5sdp"
+                      android:drawableTint="@color/white"
+                      android:imeOptions="actionNext"
+                      android:importantForAutofill="noExcludeDescendants"
+                      android:inputType="text"
+                      android:onClick="onClick"
+                      android:paddingHorizontal="@dimen/_10sdp"
+                      android:text="@string/add_people"
+                      android:textColorHint="@color/colorHintGray" />-->
+
+
+                <!-- <affan.ahmad.tags.TagsEditText
+                     android:id="@+id/edtPeopleName"
+                     style="@style/EditTextStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:animateLayoutChanges="true"
+                     android:drawableStart="@drawable/ic_people"
+                     android:drawablePadding="@dimen/_5sdp"
+                     android:hint="Ex. xyz, abc, pqr"
+                     android:imeOptions="actionNext"
+                     TagsEditText:maxLine="6"
+                     android:background="@color/white"
+                     android:importantForAutofill="noExcludeDescendants"
+                     android:inputType="text"
+                     android:textColorHint="@color/colorHintGray" />-->
+
+                <com.devstree.annibee.view.TagsEditText
+                    android:id="@+id/edtPeopleName"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_people"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:hint="@string/people_placeholder"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="noExcludeDescendants"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:textColorHint="@color/colorHintGray"
+                    TagsEditText:allowSpaceInTag="true"
+                    TagsEditText:tagsBackground="@drawable/round_corner_primary_border"
+                    TagsEditText:tagsCloseImagePadding="@dimen/defaultTagsCloseImagePadding"
+                    TagsEditText:tagsCloseImageRight="@drawable/ic_close"
+                    TagsEditText:tagsPaddingLeft="@dimen/_5sdp"
+                    TagsEditText:tagsPaddingRight="@dimen/_5sdp"
+                    TagsEditText:tagsTextColor="@color/black_gray"
+                    TagsEditText:tagsTextSize="@dimen/defaultTagsTextSize" />
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/note"
+                    android:textSize="@dimen/_13ssp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edtNote"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="noExcludeDescendants"
+                    android:inputType="textMultiLine|none"
+                    android:maxLines="5"
+                    android:textColorHint="@color/colorHintGray" />
+
+                <com.devstree.annibee.view.TextView
+                    style="@style/TextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/photo_only_4_image"
+                    android:textSize="@dimen/_13ssp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/addImage"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:background="@drawable/bg_blue_border_rounded"
+                        android:onClick="onClick"
+                        android:padding="@dimen/_10sdp"
+                        android:src="@drawable/ic_add_photo" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvAddPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:nestedScrollingEnabled="false" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

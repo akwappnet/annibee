@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
+    tools:context=".fragment.IntroFragment1">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mainImg"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/ic_intro_2" />
+
+    <com.devstree.annibee.view.TextView
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="@string/register_for_an_event"
+        android:textSize="@dimen/_14ssp" />
+
+    <com.devstree.annibee.view.TextView
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:text="@string/leave_photos_and_gift_information_for_this_year_s_events_birthday_parties_etc_in_association_with_anniversaries"
+        android:textAlignment="center"
+        android:textColor="@color/gray" />
+
+</LinearLayout>

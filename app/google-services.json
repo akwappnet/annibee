@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "423351045812",
+    "project_id": "annibee-af3fc",
+    "storage_bucket": "annibee-af3fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423351045812:android:601256b35f4c2789c311e1",
+        "android_client_info": {
+          "package_name": "com.devstree.annibee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423351045812-c65am3dmrjibo3gr8l24l3g3g7pp2gmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devstree.annibee",
+            "certificate_hash": "d22658a8eca8c07de4186cd217376a51744f1710"
+          }
+        },
+        {
+          "client_id": "423351045812-she7f5vh3vri0bi07on3o1mknabk2808.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devstree.annibee",
+            "certificate_hash": "ce205892027bf48f4b3f2fa1774f32951c690426"
+          }
+        },
+        {
+          "client_id": "423351045812-8i4li67stnml3j6on7g8slome1klnovb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAcTwEXR8FrK98JMXW5Yxl33WjD-4sPow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423351045812-8i4li67stnml3j6on7g8slome1klnovb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "423351045812-66a91b96427pusd2e9lcqvruki4cnr1p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.Annibee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

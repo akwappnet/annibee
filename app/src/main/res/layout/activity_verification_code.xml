@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <com.devstree.annibee.view.CircularImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/login_logo_1"
+        app:riv_oval="true"/>
+
+    <com.devstree.annibee.view.TextView
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="@string/annibee"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp">
+
+        <com.devstree.annibee.view.TextView
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abeezee_regular"
+            android:text="@string/verification_code"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold" />
+
+
+        <com.chaos.view.PinView
+            android:id="@+id/edtCode"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:cursorVisible="true"
+            android:digits="0123456789"
+            android:fontFamily="@font/abeezee_regular"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            app:cursorColor="@color/colorPrimary"
+            app:cursorWidth="@dimen/_1sdp"
+            app:itemCount="6"
+            app:itemHeight="@dimen/_36sdp"
+            app:itemRadius="@dimen/_2sdp"
+            app:itemSpacing="@dimen/_10sdp"
+            app:itemWidth="@dimen/_34sdp"
+            app:lineColor="@color/light_grey"
+            app:lineWidth="@dimen/_1sdp"
+            app:viewType="rectangle" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:onClick="onClick"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</LinearLayout>

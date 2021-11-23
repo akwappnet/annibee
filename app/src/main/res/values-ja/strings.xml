@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Annibee</string>
+    <string name="annibee">annibee</string>
+    <string name="please_wait">お待ちください</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+
+    <string name="register_your_anniversary">記念日を登録する</string>
+    <string name="register_important_days_such_as_your_own_birthday_or_wedding_anniversary_you_can_set_the_notification_timing_for_each_registered_anniversary">自分や家族の誕生日や結婚記念日など大切な日を登録しよう登録した記念日ごとに通知タイミングを設定できます</string>
+    <string name="register_for_an_event">イベントを登録しよう</string>
+    <string name="leave_photos_and_gift_information_for_this_year_s_events_birthday_parties_etc_in_association_with_anniversaries">記念日に関連付けて、今年のイベント（誕生日パーティなど）の写真や贈り物の情報を残そう</string>
+    <string name="sharing_function_and_sns_cooperation">共有機能やSNS連携</string>
+    <string name="in_the_future_you_can_share_events_with_your_friends_we_plan_to_strengthen_functions_such_as_linking_with_various_sns_looking_forward_to">今後、友達とのイベント共有や\n各種SNS連携などの機能を強化する予定です。お楽しみに</string>
+
+    <string name="sign_up">新規登録</string>
+    <string name="login">ログイン</string>
+    <string name="email_address">メールアドレス</string>
+    <string name="password">パスワード</string>
+    <string name="old_password">以前のパスワード</string>
+<!--    <string name="password_header">パスワード（半角英数8文字以上）</string>-->
+    <string name="forgot_password_">パスワードをお忘れですか？</string>
+    <string name="forgot_password">パスワードをお忘れですか</string>
+    <string name="using">OR</string>
+    <string name="if_you_don_t_have_account">アカウントをお持ちでない場合は？</string>
+    <string name="click_here">こちら</string>
+
+    <string name="given_names">名前</string>
+    <string name="last_names">苗字</string>
+    <string name="user_names">名前</string>
+    <string name="reenter_password">パスワード再入力</string>
+    <string name="if_you_already_have_an_account">すでにアカウントをお持ちの場合</string>
+    <string name="read_and_agree_to_the_terms_of_use_and_privacy_policy"><a href = "http://174.129.238.169/annibee/japanese-termscondition">プライバシーポリシー</a>と<a href= "http://174.129.238.169/annibee/japanese-privacypolicy">利用規約</a>に同意する</string>
+    <string name="terms_of_use"><a style="text-decoration: none;" href = "http://174.129.238.169/annibee/japanese-privacypolicy">プライバシーポリシー</a>と<a style="text-decoration: none;" href= "http://174.129.238.169/annibee/japanese-termscondition">利用規約</a>に同意する</string>
+    <string name="privacy_policy">個人情報保護方針</string>
+    <string name="user_policy">ユーザーポリシー</string>
+    <string name="and">&amp;</string>
+
+    <string name="search">探す</string>
+    <string name="date">日付</string>
+    <string name="add">追加</string>
+    <string name="list">リスト</string>
+    <string name="account">アカウント</string>
+
+    <string name="all">すべて</string>
+    <string name="upcoming_anniversary">今後の記念日</string>
+    <string name="past_anniversary">過去の記念日</string>
+    <string name="show_all">すべて表示する</string>
+    <string name="today_s_anniversary_and_events">今日の記念日とイベント</string>
+    <string name="upcoming_anniversary_and_events">今後の記念日とイベント</string>
+    <string name="past_anniversaries_and_events">過去の記念日とイベント</string>
+    <string name="holiday_events">休日リスト</string>
+
+    <string name="create_an_anniversary">記念日を作成する</string>
+    <string name="example_mother_s_day">例：母の誕生日</string>
+    <string name="wednesday_february_3_2021">2021年2月3日</string>
+    <string name="alert_notification_multiple_selections_allowed">アラート通知（複数選択可）</string>
+    <string name="_4_weeks_ago">4週間前</string>
+    <string name="_3_weeks_ago">3週間前</string>
+    <string name="_2_weeks_ago">2週間前</string>
+    <string name="_1_weeks_ago">1週間前</string>
+    <string name="the_day_before">前日</string>
+    <string name="that_day">当日</string>
+    <string name="attribute">属性</string>
+    <string name="select_anniversary_attributes">記念日の属性を選択</string>
+    <string name="note">メモ</string>
+    <string name="photo">写真</string>
+    <string name="photo_only_1_image">写真 (1枚のみ登録可)</string>
+    <string name="photo_only_4_image">写真4枚のみ（※メイン写真を先に選択してください）</string>
+    <string name="please_enter_name_of_anniversary">記念日の名前を入力してください</string>
+
+    <string name="create_an_event">イベントを作成する</string>
+    <string name="select_an_anniversary_optional">記念日を選択（任意）</string>
+    <string name="select_anniversary">記念日を選択</string>
+    <string name="event_name">イベント名</string>
+    <string name="all_day">一日中</string>
+    <string name="date_and_time">日付時刻</string>
+    <string name="people">人</string>
+
+    <string name="gallery">ギャラリー</string>
+    <string name="event_on">のイベント</string>
+
+    <string name="home">ホーム</string>
+    <string name="anniversary_detail">記念日の詳細</string>
+    <string name="share">シェア</string>
+    <string name="taro_amp_hanako_wedding_anniversary">太郎 &amp; 花子結婚記念日</string>
+    <string name="celebration_of_friends">友人祝い</string>
+    <string name="notice_same_day_previous_day_1_week_ago_4_weeks_ago">通知：同日、前日、1週間前、4週間前。</string>
+    <string name="the_two_are_high_school_classmates">二人は高校の同級生</string>
+    <string name="notify_in_advance">％d 日前に通知する</string>
+    <string name="create_new">新規作成</string>
+
+    <string name="event_detail">イベントの詳細</string>
+    <string name="fuji_rock_festival">富士ロックフェス</string>
+    <string name="_10_00_am_8_00_pm">10:00 am-8: 00 pm</string>
+    <string name="_2_year_mesh">2年目</string>
+    <string name="this_year_6_people_will_go_to_fuji_rock_festival_pay_tickets_for_2_people_with_4_people_4000_yen_person">今年は6人で富士ロックフェスへ。2人分のチケットを4人で支払い。4000円/人</string>
+    <string name="participants">人の参加者</string>
+    <string name="edit">編集</string>
+    <string name="delete">削除</string>
+    <string name="event_photo">イベント写真</string>
+
+    <string name="profile">プロフィール</string>
+    <string name="shin_nakamura">中村伸志</string>
+    <string name="nakamura1994s">中村1994年代</string>
+    <string name="april_18_2021">2021年4月18日</string>
+    <string name="event">イベント</string>
+    <string name="anniversary">記念日</string>
+    <string name="edit_profile">プロフィール編集</string>
+    <string name="registered_anniversaries_and_events">登録済み記念日とイベント</string>
+    <string name="registered_anniversary">登録済み記念日</string>
+    <string name="registered_event">登録済みイベント</string>
+    <string name="notifications_and_privacy">通知とプライバシー</string>
+    <string name="alert_notification_settings">アラート通知設定</string>
+    <string name="support">サポート</string>
+    <string name="faq">よくある質問</string>
+    <string name="contact_us">お問い合わせ</string>
+    <string name="report_application_bugs_improvement_requests">アプリの不具合・改善要望を報告</string>
+    <string name="other">その他</string>
+
+    <string name="change_photo">写真を変更する</string>
+    <string name="name">名前</string>
+    <string name="save">保存</string>
+    <string name="user_id">ユーザーID（*任意）</string>
+    <string name="birthday">誕生日</string>
+
+    <string name="_7">7</string>
+    <string name="_2">2</string>
+    <string name="oo_s_birthday">〇〇さんの誕生日</string>
+    <string name="_2021_4_18">2021/4/18</string>
+    <string name="_25th">(25回目)</string>
+    <string name="_8_25_2021">8/25/2021</string>
+    <string name="grandmother_s_anniversary_67th_anniversary">祖母命日（6回目：七回忌）</string>
+    <string name="shinji_nakamura">中村俊輔</string>
+    <string name="_2021">2021</string>
+    <string name="chihiro_dating_half_a_year">ちひろ　交際半年目</string>
+    <string name="parents_wedding_anniversary">両親結婚記念日</string>
+    <string name="please_check_the_user_policy_and_privacy_policy">ユーザーのプライバシーや条件を確認してください。</string>
+    <string name="select_profile_img">プロフィール画像を選択</string>
+    <string name="please_enter_password">パスワードを入力してください</string>
+    <string name="please_enter_old_password">古いパスワードを入力してください</string>
+    <string name="please_enter_new_password">新しいパスワードを入力してください</string>
+    <string name="please_enter_8_char_old_password">古いパスワードは、少なくとも8つのシングルバイト文字である必要があり、大小の英数字を含める必要があります。</string>
+    <string name="please_enter_8_char_new_password">新しいパスワードは、少なくとも8つのシングルバイト文字である必要があり、大小の英数字を含める必要があります</string>
+    <string name="please_enter_different_password">新しいパスワードは古いパスワードと同じです。</string>
+    <string name="please_enter_8_char_password">パスワードは半角8文字以上で、大小英数を含む必要があります。</string>
+    <string name="please_enter_valid_email">有効なメールアドレスを入力してください</string>
+    <string name="please_enter_email">メールアドレスを入力してください</string>
+    <string name="please_enter_birthday">誕生日を入力してください</string>
+    <string name="please_enter_user_id">ユーザーIDを入力してください</string>
+    <string name="please_enter_name">イベントの名前を入力してください</string>
+    <string name="password_not_match">パスワードが一致しません</string>
+    <string name="please_enter_user_name">ユーザー名を入力してください</string>
+    <string name="please_enter_last_name">姓を入力してください</string>
+    <string name="please_enter_given_name">名を入力してください</string>
+    <string name="permission_required">許可が必要です</string>
+    <string name="permission_required_n_you_can_grant_permission_in_setting">許可が必要です!!\n設定で許可を与えることができます。</string>
+    <string name="no_internet_connection">インターネットに接続できません</string>
+
+    <string name="submit">参加する</string>
+    <string name="change_password_submit">変更する</string>
+    <string name="participate">登録する</string>
+    <string name="select_the_applicable_anniversary">該当する記念日を選択してください</string>
+    <string name="whats_app_images">WhatsApp画像</string>
+    <string name="screenshot">スクリーンショット</string>
+    <string name="please_enter_anniversary_attribute">記念日属性を入力してください</string>
+    <string name="please_enter_note">注意事項を入力してください</string>
+    <string name="please_enter_start_date">開始日を入力してください</string>
+    <string name="please_enter_start_time">開始時間を入力してください</string>
+    <string name="please_enter_end_date">終了日を入力してください</string>
+    <string name="please_enter_end_time">終了時間を入力してください</string>
+    <string name="please_enter_people">人を入力してください</string>
+
+    <string name="change_language">言語の変更</string>
+    <string name="logout">ログアウト</string>
+    <string name="language">言語</string>
+    <string name="english">English</string>
+    <string name="japanese">日本語</string>
+    <string name="traditional_chinese">繫体字</string>
+    <string name="simplified_chinese">簡体字</string>
+    <string name="are_you_sure_n_you_want_to_logout">ログアウトしますか？</string>
+    <string name="are_you_sure_n_you_want_to_delete_this_event">イベントを削除しますか？</string>
+
+    <string name="any">任意</string>
+    <string name="default_anniversary">デフォルト記念日</string>
+    <string name="wedding_anniversary">結婚記念日</string>
+    <string name="dating_anniversary">交際記念日</string>
+    <string name="anniversary_of_establishment">設立記念日</string>
+    <string name="engagement_anniversary">エンゲージメントアニバーサリー</string>
+    <string name="date_of_death">死亡日</string>
+
+    <string name="mother_s_day"> 母の日</string>
+    <string name="father_s_day">父の日</string>
+    <string name="valentine">バレンタイン</string>
+    <string name="white_day">ホワイトデー</string>
+    <string name="Respect_for_the_aged_day">敬老の日</string>
+    <string name="christmas_eve">クリスマスイブ</string>
+    <string name="christmas">クリスマス</string>
+    <string name="new_year_s_day">元旦</string>
+
+    <string name="january">1月</string>
+    <string name="february">2月</string>
+    <string name="march"> 3月</string>
+    <string name="april">4月</string>
+    <string name="may">5月</string>
+    <string name="june">6月</string>
+    <string name="july">7月</string>
+    <string name="august">8月</string>
+    <string name="september">9月</string>
+    <string name="october">10月</string>
+    <string name="november">11月</string>
+    <string name="december">12月</string>
+
+    <string name="setting">設定</string>
+    <string name="notification">通知</string>
+    <string name="notification_message_here">ここに通知メッセージ...</string>
+
+    <string name="are_you_sure_n_you_want_to_delete_this_anniversary">記念日を削除しますか？</string>
+    <string name="please_enter_date_of_anniversary">結婚記念日を入力してください</string>
+    <string name="share_to_friends">友達と共有する</string>
+    <string name="done">完了</string>
+    <string name="close">閉じる</string>
+
+    <string name="please_login_again">もう一度ログインしてください</string>
+    <string name="notice">通知：</string>
+    <string name="Please_select_an_image">画像を選択してください</string>
+    <string name="update_an_anniversary">記念日を更新する</string>
+    <string name="update_an_event">イベントを更新する</string>
+    <string name="no_data_found">何もデータが見つかりませんでした！！！</string>
+
+    <string name="photos">写真</string>
+    <string name="title">題名</string>
+    <string name="message">メッセージ</string>
+    <string name="enter_title">タイトルを入力してください</string>
+    <string name="enter_message">メッセージを入力してください</string>
+
+    <string name="verification_code">検証コード</string>
+    <string name="new_password">新しいパスワード</string>
+    <string name="confirm_password">パスワード再入力</string>
+    <string name="reset_password">パスワードの再設定</string>
+
+    <string name="notify">Notify </string>
+    <string name="days_in_advance"> 日前に</string>
+
+    <string name="event_name_example">母の50歳のお祝い</string>
+
+    <string name="report_bugs_improvement">バグと改善報告</string>
+    <string name="que">質問 :</string>
+    <string name="how_to_add_anniversary_or_event">記念日やイベントを追加するには？</string>
+    <string name="ans">回答 :</string>
+    <string name="answer">ホーム」を開き、下部の「画像を追加」を押し、記念日を作成したい場合は「記念日を作成」をクリックします。イベントを作成したい場合は、イベントの作成をクリックし、詳細を入力して保存ボタンをクリックすると、記念日やイベントが作成されます。</string>
+
+    <string name="please_select_date_which_is_after_start_date">開始日以降の日付を選択してください。</string>
+    <string name="google">Google</string>
+    <string name="please_select_anniversary">任意の記念日を選択してください</string>
+    <string name="setup_profile">プロフィール設定</string>
+    <string name="request_submitted_successfully">リクエストは正常に送信されました</string>
+    <string name="please_enter_valid_user_id">ユーザーID 8文字以内で入力してください。</string>
+    <string name="days_remain">残り日数</string>
+
+    <string name="attribute_">属性 ：</string>
+    <string name="anniversary_name">結婚記念日 ：</string>
+
+    <string name="user_id_placeholder">半角英数8文字以上（英小文字のみ）</string>
+    <string name="password_placeholder">半角8文字以上で大小英数を含む</string>
+    <string name="user_name_placeholder">日本太郎</string>
+    <string name="new_password_placeHolder">半角8文字以上で大小英数を含む</string>
+    <string name="confirm_password_placeHolder">半角8文字以上で大小英数を含む</string>
+
+    <string name="terms_of_user">利用規約</string>
+
+    <string name="_10_days_passed">10日が経過しました</string>
+
+
+    <string name="required">(*必須）</string>
+    <string name="delete_account">アカウントを削除する</string>
+    <string name="are_you_sure_n_you_want_to_delete_your_account">すべてのデータが削除されますが、本当に削除して大丈夫ですか？</string>
+    <string name="add_people">人を追加する</string>
+
+    <string name="am">午前</string>
+    <string name="pm">午後</string>
+    <string name="new_attribute">新規属性</string>
+    <string name="people_placeholder">トム、スミス、ボブ</string>
+    <string name="choose_image_from_gallery">ギャラリーから画像を選択</string>
+    <string name="take_a_photo">写真を撮る</string>
+    <string name="change_password">パスワードを変更する</string>
+
+    <string name="msg_password_changed">パスワードは正常に変更されました</string>
+
+</resources>
